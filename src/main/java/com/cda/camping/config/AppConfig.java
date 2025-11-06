@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -16,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.cda.camping", "org.springdoc"})
-public class AppConfig implements WebMvcConfigurer {
+public class AppConfig {
     
     @Bean
     public DataSource dataSource(){

@@ -1,6 +1,5 @@
 package com.cda.camping.model;
 
-// import java.time.LocalDate;
 import java.sql.Date;
 
 import jakarta.persistence.Column;
