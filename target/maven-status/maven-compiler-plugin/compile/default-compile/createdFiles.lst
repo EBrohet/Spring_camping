@@ -1,11 +1,17 @@
 com\cda\camping\controller\FactureController.class
 com\cda\camping\service\TypeService.class
+com\cda\camping\controller\ParticipeController.class
 com\cda\camping\controller\UserController.class
+com\cda\camping\service\ParticipeService.class
+com\cda\camping\model\Participe.class
 com\cda\camping\service\UserService.class
+com\cda\camping\config\PasswordUtil.class
 com\cda\camping\repository\EcheanceRepository.class
 com\cda\camping\repository\TypeRepository.class
 com\cda\camping\controller\ReservationController.class
+com\cda\camping\model\ParticipeKey.class
 com\cda\camping\repository\ReservationRepository.class
+com\cda\camping\config\JwtUtil.class
 com\cda\camping\model\User.class
 com\cda\camping\App.class
 com\cda\camping\service\FactureService.class
@@ -18,6 +24,7 @@ com\cda\camping\model\Reservation.class
 com\cda\camping\repository\ClientRepository.class
 com\cda\camping\controller\ClientController.class
 com\cda\camping\model\FacturesService.class
+com\cda\camping\repository\ParticipeRepository.class
 com\cda\camping\model\Hebergement.class
 com\cda\camping\service\EcheanceService.class
 com\cda\camping\model\Type.class
